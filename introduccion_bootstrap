@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="btn btn-primary">Primary</button>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+        </div>
+      </nav>
+    <div class="container nt-3">
+
+        <h4>Introduccion a Bootstrap 5</h4>
+
+        <div class="row">
+          <div class="col-lg-6 col-lg-6 col-sm-6 col-12">
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input class="form-control" type="text">
+               </div>       
+        </div>
+
+        <div class="col-lg-6 col-lg-6 col-sm-6 col-12">
+            <div class="nb-3">
+                <label class="form-label">Operación</label>
+                <select class="form-select">
+                   <option selected disabled value="-1">Seleccione Operacion</option>
+                   <option value="0">Sumar</option>
+                   <option value="1">Restar</option>
+                </select>
+            </div>
+            <button class="btn btn-success">Iniciar</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
